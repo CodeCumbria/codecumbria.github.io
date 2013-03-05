@@ -18,6 +18,10 @@ $facebook: #3b5998;
   }
 }
 
+@-ms-viewport {
+  width: device-width;
+}
+
 img {
   display: block;
   width: 100%;
