@@ -1,5 +1,171 @@
-@import "compass";
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700);
+@import "compass", "normalize";
+
+$grey: #f5f5f5;
+$green: #498549;
+$twitter: #00aceb;
+$facebook: #3b5998;
+
+@mixin link-block-color($color) {
+  background: $color;
+  
+  &:hover, &:focus {
+    background: darken($color, 5);
+  }
+  
+  &:active {
+    background: darken($color, 7);
+  }
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 body {
-  background: rgb(185, 195, 153);
+  font-family: Merriweather;
+  text-align: center;
+  background: $grey;
+}
+
+.module {
+  margin: 0;
+  padding: 1em 15%;
+  @include clearfix;
+  
+  > :first-child {
+    margin-top: 0;
+  }
+  
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.module-small {
+  padding: 0;
+}
+
+.module-header {
+  @extend .module-heading;
+  background: white;
+}
+
+.module-heading {
+  color: lighten($green, 5);
+}
+
+.main-header {
+  
+  padding: {
+    left: 0;
+    right: 0;
+  }
+
+  &:before {
+    content: "{ ";
+  }
+  
+  &:after {
+    content: " }";
+  }
+}
+
+.module-alternate {
+  background: $green;
+  
+  * {
+    color: $grey;
+  }
+}
+
+.block {
+  display: inline-block;
+  padding: 1em 2%;
+  margin: 0 1%;
+  color: white;
+  text-decoration: none;
+  width: 9ex;
+}
+
+.main-content {
+  text-align: left;
+}
+
+.paragraph-short {
+  text-align: center;
+  margin: {
+    top: .5em;
+    bottom: .5em;
+  }
+}
+
+.block.twitter {
+  @include link-block-color($twitter);
+}
+
+.block.facebook {
+  @include link-block-color($facebook);
+}
+
+.input {
+  border: none;
+  outline: none;
+  color: black;
+  font-family: inherit;
+  @include appearance(none);
+}
+
+.block-join {
+  margin: 0;
+}
+
+input.block {
+  width: auto;
+}
+
+.button {
+  @extend .input;
+  color: white;
+  @include link-block-color(#aaa);
+}
+
+@media (min-width: 45em) {
+  .column {
+    width: 50%;
+    float: left;
+    
+    .block {
+      padding: {
+        left: 4%;
+        right: 4%;
+      }
+    }
+    
+    > :first-child {
+      margin-top: 0;
+    }
+    
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  .graphic {
+    float: right;
+    width: 47.5%;
+    // Set as an attribute, so we need to override.
+    margin: 0 0 0 5%;
+    
+    &:nth-of-type(2n) {
+      float: left;
+      margin: 0 5% 0 0;
+    }
+  }
+}
+
+h4 {
+  font-weight: 400;
 }
