@@ -27,10 +27,11 @@ img {
 body {
   font-family: Merriweather;
   text-align: center;
-  background: $grey;
+  background: $green;
 }
 
 .module {
+  background: $grey;
   margin: 0;
   padding: 1em 15%;
   @include clearfix;
@@ -116,14 +117,7 @@ body {
   color: black;
   font-family: inherit;
   @include appearance(none);
-}
-
-.block-join {
-  margin: 0;
-}
-
-input.block {
-  width: auto;
+  @include border-radius(0);
 }
 
 .button {
@@ -133,6 +127,20 @@ input.block {
 }
 
 @media (min-width: 45em) {
+  .graphic {
+    float: right;
+    width: 47.5%;
+    // Set as an attribute, so we need to override.
+    margin: 0 0 0 5%;
+    
+    &:nth-of-type(2n) {
+      float: left;
+      margin: 0 5% 0 0;
+    }
+  }
+}
+ 
+@media (min-width: 60em) { 
   .column {
     width: 50%;
     float: left;
@@ -152,20 +160,25 @@ input.block {
       margin-bottom: 0;
     }
   }
-  
-  .graphic {
-    float: right;
-    width: 47.5%;
-    // Set as an attribute, so we need to override.
-    margin: 0 0 0 5%;
-    
-    &:nth-of-type(2n) {
-      float: left;
-      margin: 0 5% 0 0;
-    }
-  }
 }
 
 h4 {
   font-weight: 400;
+}
+
+.block-join {
+  width: 100%;
+  text-align: center;
+  @include box-sizing(border-box);
+}
+
+@media (min-width: 30em) {
+  .block-join {
+    margin: 0;
+    text-align: left;
+  }
+
+  input.block {
+    width: auto;
+  }
 }
