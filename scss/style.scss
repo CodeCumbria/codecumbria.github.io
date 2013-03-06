@@ -8,14 +8,6 @@ $facebook: #3b5998;
 
 @mixin link-block-color($color) {
   background: $color;
-  
-  &:hover, &:focus {
-    background: darken($color, 5);
-  }
-  
-  &:active {
-    background: darken($color, 7);
-  }
 }
 
 @-ms-viewport {
@@ -184,5 +176,21 @@ h4 {
 
   input.block {
     width: auto;
+  }
+}
+
+a, input {
+  /* &:active is before &:hover here
+  because having the element change opacity again
+  after you click is not a good experince.
+  
+  So we only want the &:active state to apply
+  in a situation where &:hover-ing isn't happening. */
+  &:active {
+   @include opacity(.8);
+  }
+  
+  &:hover, &:focus {
+   @include opacity(.9);
   }
 }
