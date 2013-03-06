@@ -14,6 +14,11 @@ $facebook: #3b5998;
   width: device-width;
 }
 
+* {
+  // Stop the annoying grey glow
+  -webkit-tap-highlight-color: transparent;
+}
+
 img {
   display: block;
   width: 100%;
