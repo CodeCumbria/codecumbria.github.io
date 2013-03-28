@@ -73,8 +73,9 @@
       
       <form method="post" class="column" action="http://facebook.us4.list-manage1.com/subscribe/post?u=d5773ad10b2dbd18f0917b34d&amp;id=b05ef6c268" novalidate>
         <h4><label for="email">Enter your email address to subscribe.</label></h4>
-        <input type="email" id="email" name="EMAIL" placeholder="john@example.com" class="block input block-join" required>
-        <input type="submit" value="Submit" class="block button block-join" name="subscribe">
+        <input type="email" id="email" name="EMAIL" placeholder="john@example.com" class="block input block-join" required><!--
+          Ensure that there is no space between the two inputs or we get inline-block spacing weirdness.
+        --><input type="submit" value="Submit" class="block button block-join" name="subscribe">
       </form>
     </section>
     
