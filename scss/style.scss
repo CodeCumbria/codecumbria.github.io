@@ -46,6 +46,7 @@ body {
 }
 
 .module-header {
+  @extend .module;
   @extend .module-heading;
   background: white;
 }
@@ -55,7 +56,6 @@ body {
 }
 
 .main-header {
-  
   padding: {
     left: 0;
     right: 0;
@@ -71,6 +71,7 @@ body {
 }
 
 .module-alternate {
+  @extend .module;
   background: $green;
   
   * {
