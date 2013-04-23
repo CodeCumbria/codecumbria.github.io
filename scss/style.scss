@@ -37,20 +37,10 @@ body {
   }
 }
 
-.module-small {
-  padding: 0;
-}
-
 .module-header {
   @extend .module, .module-heading;
   background: white;
-}
-
-.module-heading {
-  color: lighten($green, 5);
-}
-
-.main-header {
+    
   padding: {
     left: 0;
     right: 0;
@@ -63,6 +53,10 @@ body {
   &:after {
     content: " }";
   }
+}
+
+.module-heading {
+  color: lighten($green, 5);
 }
 
 .module-alternate {
