@@ -1,13 +1,22 @@
-website
+www.codecumbria.com
 =======
 
-The new forthcoming Code Cumbria website
+Feel free to edit this website: fix any mistakes you find, add missing
+information, tweak the look 'n feel, etc.
 
-This one goes out to Miss Cumbria
+If you don't already have commit access, ping http://twitter.com/codecumbria
 
-Ross changed this file on 27/02/2013
 
-Contributing
+
+Tips
 ============
 
-* DO NOT optimise images/msapplication-TileImage.png. It seems there is a bug in Windows that stops the icon working if it's optimised.
+* DO NOT optimise images/msapplication-TileImage.png. It seems there is a bug in
+  Windows that stops the icon working if it's optimised.
+
+
+
+
+
+
+_(This one goes out to Miss Cumbria...)_
