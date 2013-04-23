@@ -81,6 +81,14 @@ body {
   color: white;
   text-decoration: none;
   width: 9ex;
+  
+  &.twitter {
+    background: $twitter;
+  }
+  
+  &.facebook {
+    background: $facebook;
+  }
 }
 
 .main-content {
@@ -93,14 +101,6 @@ body {
     top: .5em;
     bottom: .5em;
   }
-}
-
-.block.twitter {
-  background: $twitter;
-}
-
-.block.facebook {
-  background: $facebook;
 }
 
 .input {
