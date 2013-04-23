@@ -1,4 +1,4 @@
-www.codecumbria.com
+www.codecumbria.org
 =======
 
 Feel free to edit this website: fix any mistakes you find, add missing
