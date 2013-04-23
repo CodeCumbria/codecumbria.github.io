@@ -46,8 +46,7 @@ body {
 }
 
 .module-header {
-  @extend .module;
-  @extend .module-heading;
+  @extend .module, .module-heading;
   background: white;
 }
 
