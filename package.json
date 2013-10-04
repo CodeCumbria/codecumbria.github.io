@@ -1,0 +1,24 @@
+{
+  "name": "codecumbria.github.io",
+  "version": "2.0.0",
+  "description": "The Code Cumbria site",
+  "dependencies": {
+    "bower": "~1.2.7",
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-less": "~0.7.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-jekyll": "~0.3.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/codecumbria/codecumbria.github.io.git"
+  },
+  "author": "dave@schwuk.com",
+  "license": "Creative Commons Attribution-ShareAlike 2.0 UK: England & Wales License",
+  "bugs": {
+    "url": "https://github.com/codecumbria/codecumbria.github.io/issues"
+  }
+}

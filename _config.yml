@@ -1,0 +1,6 @@
+name: Code Cumbria
+markdown: redcarpet
+pygments: true
+
+exclude: ["bower.json", "bower_components", "Gruntfile.js", "node_modules", "package.json", "README.md"]
+
