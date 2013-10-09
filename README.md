@@ -31,8 +31,15 @@ Use `bower` to install dependencies:
 
     $ bower install
 
-Modifying the site
-------------------
+Modifying the site (content)
+----------------------------
+
+Edit/add files as necessary. Since we're leveraging the power of Github pages
+and Jekyll, don't forget you can edit files directly through Github for
+instant satisfaction.
+
+Modifying the site (style)
+--------------------------
 
 Although you can modify this site just like any other Jekyll site, there are a
 few Grunt tasks to make life easier.
@@ -41,3 +48,5 @@ few Grunt tasks to make life easier.
  * `grunt development` - compiles the CSS (using less) and compiles the site (using Jekyll)
  * `grunt production` - compiles and minifies the CSS, and compiles the site (use before committing)
  * `grunt serve` - runs the development task, a webserver and watches for any changes (use for development/testing)
+
+ Make sure you've run `clean` and `production` before committing style changes.
