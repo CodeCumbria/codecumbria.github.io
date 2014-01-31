@@ -47,6 +47,12 @@ module.exports = function(grunt) {
         cwd: 'assets/css',
         src: ['**'],
         dest: '_site/assets/css'
+      },
+      images: {
+        expand: true,
+        cwd: '_images',
+        src: ['**'],
+        dest: 'assets/img'
       }
     },
 
@@ -101,9 +107,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task(s).
-  grunt.registerTask('default', ['clean', 'external']);
+  grunt.registerTask('default', ['clean', 'internal', 'external']);
   grunt.registerTask('development', ['default', 'less:development', 'jekyll:site']);
   grunt.registerTask('external', ['copy:bootstrap', 'copy:jquery', 'copy:html5shiv', 'copy:respond'])
+  grunt.registerTask('internal', ['copy:images'])
   grunt.registerTask('production', ['default', 'less:production']);
   grunt.registerTask('serve', ['development', 'connect', 'watch']);
 };
