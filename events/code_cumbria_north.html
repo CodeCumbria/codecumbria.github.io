@@ -13,6 +13,9 @@ section: events
     <p>This event runs on the last Wednesday of every month at the <a href="http://www.cumbria.ac.uk/AboutUs/Enterprise/CarlisleBusinessInteractionCentre.aspx">University of Cumbria's Carlisle Business Interaction Centre</a> on Paternoster Row.</p>
   </div>
 </div>
+</div>
+<div id="map-canvas"></div>
+<div class="container">
 <div class="row">
   <div class="col-md-6">
     <p>There are usually 3-4 talks of about 20 minutes each (including Q&A), mixed with general discussion, networking and - of course - tea &amp; coffee.</p>
@@ -21,6 +24,7 @@ section: events
   <div class="col-md-6">
     <div style="width:100%; text-align:left;" ><iframe  src="https://www.eventbrite.co.uk/tickets-external?eid=10450968127&ref=etckt" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.co.uk/r/etckt">Event registration</a><span style="color:#ddd;"> for </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="https://codecumbrianorth-201402.eventbrite.co.uk/?ref=etckt">Code Cumbria North - 2014.02</a> <span style="color:#ddd;">powered by</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.co.uk?ref=etckt">Eventbrite</a></div></div>
   </div>
+</div>
 <div class="row">
   <div class="col-md-6">
     <div class="well cta">
@@ -41,3 +45,30 @@ section: events
     </div>
   </div>
 </div>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script>
+function initialize() {
+  var mapLatLng = new google.maps.LatLng(54.895069122314453, -2.939579963684082);
+
+  var mapOptions = {
+      zoom: 18,
+      center: mapLatLng,
+      disableDefaultUI: true,
+      draggable: false,
+      scrollwheel: false
+  }
+
+  var map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: mapLatLng,
+    map: map,
+    title:"C-BIC"
+  });
+
+  }
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
