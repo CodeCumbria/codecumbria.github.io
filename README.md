@@ -39,7 +39,7 @@ Use `bower` to install dependencies:
 
     $ bower install
 
-### Jekyll (via RubyGems)
+### Jekyll (via Bundler and RubyGems)
 
 Use `gem` to install [Bundler](http://bundler.io/):
 
