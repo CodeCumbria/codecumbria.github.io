@@ -32,8 +32,8 @@ module.exports = function(grunt) {
       },
       jquery: {
         expand: true,
-        cwd: 'bower_components/jquery',
-        src: ['jquery.min.js'],
+        cwd: 'bower_components/jquery/dist',
+        src: ['jquery.min.js', 'jquery.min.map'],
         dest: 'assets/jquery'
       },
       respond: {
