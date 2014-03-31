@@ -12,11 +12,19 @@ currently [Bootstrap](http://getbootstrap.com/) and
 automate the build process. In turn, both of these are managed using
 [npm](https://npmjs.org/).
 
-Getting started
----------------
+The website is hosted using [GitHub Pages](http://pages.github.com/).
 
-Install Jekyll and [Node.js](http://nodejs.org/) - there are plenty of guides
-available so no point duplicating them here.
+Setting up development environment
+----------------------------------
+
+### Prerequisites
+
+Before you begin, ensure you system has:
+
+- [Ruby v1.9.3](https://www.ruby-lang.org/) (or newer)
+- [Node.js](http://nodejs.org/)
+
+### Bower and Grunt (via npm)
 
 Ensure you have `bower` and `grunt-cli` installed globally, or be prepared to
 mess around with paths!
@@ -30,6 +38,13 @@ Use `npm` to install required Node.js packages:
 Use `bower` to install dependencies:
 
     $ bower install
+
+### Jekyll (via RubyGems)
+
+Use `bundle` to install required RubyGems (including Jekyll) as used by
+GitHub Pages:
+
+    $ bundle install
 
 Modifying the site (content)
 ----------------------------
@@ -50,3 +65,8 @@ few Grunt tasks to make life easier.
  * `grunt serve` - runs the development task, a webserver and watches for any changes (use for development/testing)
 
  Make sure you've run `clean` and `production` before committing style changes.
+
+License
+-------
+
+[Creative Commons Attribution-ShareAlike 2.0 UK: England & Wales License](http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB)
