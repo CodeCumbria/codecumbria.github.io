@@ -41,6 +41,10 @@ Use `bower` to install dependencies:
 
 ### Jekyll (via RubyGems)
 
+Use `gem` to install [Bundler](http://bundler.io/):
+
+    $ gem install bundler
+
 Use `bundle` to install required RubyGems (including Jekyll) as used by
 GitHub Pages:
 
