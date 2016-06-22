@@ -1,6 +1,11 @@
-name: Code Cumbria
-markdown: redcarpet
-pygments: true
+# Site settings
+title: Code Cumbria
+email: hello@codecumbria.org
+description: Homepage of Code Cumbria.
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
 
 exclude: ["bower.json", "bower_components", "Gruntfile.js", "node_modules", "package.json", "README.md"]
 
