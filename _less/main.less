@@ -95,6 +95,14 @@ body {
       line-height: @line-height-base;
       font-size: 1em;
     }
+    h3 {
+      margin-top: 0;
+      line-height: @line-height-base;
+      font-size: 1em;
+      &::after {
+            content: ":";
+          }
+    }
     ul {
       padding-left: 0;
       list-style-type: none;
