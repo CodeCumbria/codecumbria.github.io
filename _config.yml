@@ -1,11 +1,21 @@
-# Site settings
 title: Code Cumbria
 email: hello@codecumbria.org
-description: Homepage of Code Cumbria.
+description: Unearthing rural tech
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://codecumbria.org
+twitter_username: codecumbria
+github_username:  codecumbria
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
+theme: jekyll-theme-hydeout
+remote_theme: fongandrew/hydeout
+paginate: 5
+excerpt_separator: <!--more-->
+google_analytics: UA-44733760-1
 
-exclude: ["bower.json", "bower_components", "Gruntfile.js", "node_modules", "package.json", "README.md"]
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
 

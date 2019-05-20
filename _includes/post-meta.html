@@ -1,0 +1,40 @@
+<div class="post-meta">
+  <span class="post-author">{{ include.post.author }}</span>
+  &bull;
+  <span class="post-date">
+    {% assign day = include.post.date | date: "%-d"  %}
+    {% case day %}
+      {% when '1' or '21' or '31' %}{{ day }}st
+      {% when '2' or '22' %}{{ day }}nd
+      {% when '3' or '23' %}{{ day }}rd
+      {% else %}{{ day }}th
+    {% endcase %}
+    {{ include.post.date | date: "of %B, %Y" }}
+  </span>
+  &bull;
+  <span class="post-categories">
+    {% for category in include.post.categories %}
+
+      {% comment %}
+        Check if this category has a corresponding page before decide
+        to link to it. This is an O(n^2) operations so consider removing
+        it and linking for all categories (or no categories) if this
+        site has a lot of pages and/or a lot of categories.
+      {% endcomment %}
+      {% assign category_page = false %}
+      {% for node in site.pages %}
+        {% if node.category == category or node.title == category %}
+          {% assign category_page = node %}
+        {% endif %}
+      {% endfor %}
+
+      {% if category_page %}
+        <a href="{{ site.baseurl }}{{ category_page.url }}">
+          {{ category_page.title | default: category_page.category }}
+        </a>{% if forloop.last == false %}, {% endif %}
+      {% else %}
+        {{ category }}{% if forloop.last == false %}, {% endif %}
+      {% endif %}
+    {% endfor %}
+  </span>
+</div>
