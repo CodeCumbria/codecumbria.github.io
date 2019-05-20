@@ -30,6 +30,8 @@ Edit/add files as necessary. Since we're leveraging the power of Github pages an
 Running the site locally
 ------------------------
 
+Uncomment the `theme` setting in `_config.yml`.
+
 ```bash
 make serve
 ```

@@ -8,7 +8,8 @@ github_username:  codecumbria
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hydeout
+# Uncomment this to view locally
+#theme: jekyll-theme-hydeout
 remote_theme: fongandrew/hydeout
 paginate: 5
 excerpt_separator: <!--more-->
