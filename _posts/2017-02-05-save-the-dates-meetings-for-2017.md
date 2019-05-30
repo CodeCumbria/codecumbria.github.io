@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/02/save-the-dates-meetings-for-2017/
 image: /assets/2017/02/foko4dpxamq-eric-rothermel-e1486130410189.jpg
 categories:
-  - Meetings
+  - Events
 ---
 Although we have always met on the last Wednesday of the month, it was suggested at our last meeting that we be more explicit about our schedule so here are the meeting dates and times for 2017.
 

@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/02/february-2017-game-makers/
 image: /assets/2017/02/cufyw1c97w8-pawel-kadysz-e1487180561643-1200x406.jpg
 categories:
-  - Meetings
+  - Events
   - Announcements
 ---
 Our next meeting is almost upon us! On Wednesday February 22nd at 6:30PM we will be **making our own video games**.

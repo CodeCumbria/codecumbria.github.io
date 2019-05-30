@@ -6,7 +6,7 @@ layout: post
 permalink: /2019/03/april-2019-were-back/
 categories:
   - Announcements
-  - Meetings
+  - Events
 ---
 Code Cumbria is back! We have a new home thanks to our friends at [The Guild](https://www.theguild-carlisle.co.uk) in Carlisle.
 
