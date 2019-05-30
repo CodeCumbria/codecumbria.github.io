@@ -7,7 +7,7 @@ layout: post
 permalink: /2018/02/meeting-cancelled-february-2018/
 categories:
   - Announcements
-  - Meetings
+  - Events
 ---
 Due to lack of appropriate venue, we have decided to cancel the meeting for this Wednesday – February 28th 2018.
 

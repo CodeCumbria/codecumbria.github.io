@@ -6,7 +6,7 @@ excerpt: Back for 2018, here are the dates and times for our meetings this year.
 layout: post
 permalink: /2018/01/meeting-schedule/
 categories:
-  - Meetings
+  - Events
 ---
 Here are the dates and times for our meetings in 2018.
 

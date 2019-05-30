@@ -6,7 +6,7 @@ layout: post
 permalink: /2017/01/meeting-january-2017/
 image: /assets/2017/01/6e7cde1a-1d8b-4057-8f26-39429ce26af4.jpg
 categories:
-  - Meetings
+  - Events
   - Announcements
 ---
 Hello one and all,

@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/03/recap-february-2017/
 image: /assets/2017/03/IMG_1090-1200x900.jpg
 categories:
-  - Meetings
+  - Events
   - Recaps
 ---
 Our February meeting was an amazing experience for everyone who attended. From our first attempts to combine mob programming & blind learning to the first time creating a (working) game for many of us!

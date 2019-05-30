@@ -7,7 +7,7 @@ permalink: /2019/05/may-2019-lean-coffee/
 image: /assets/2019/05/IMG_4056-1200x675.jpg
 categories:
   - Announcements
-  - Meetings
+  - Events
 ---
 Following our triumphant return [last month,](/2019/03/april-2019-were-back/) we're going to try and repeat our success by giving our community another opportunity to discuss the topics that matter most to them. That’s right, it’s time for some **more** [Lean Coffee](http://leancoffee.org/)!
 
