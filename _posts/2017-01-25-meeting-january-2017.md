@@ -19,7 +19,7 @@ After a short break we'll slow things down a little as [Andrew Donaldson](https:
 
 We'll then tackle the hard issues of the month with some Lean Coffee.
 
-As usual in the downtime between meets you can have a bit of a gas on the [Code Cumbria Slack](https://codecumbria.slack.com/). Not yet a member? Grab yourself an invite [here](https://join.slack.com/t/codecumbria/shared_invite/enQtNjM4MTQ3MzI1OTc1LTNmYTkyZGY4ODEyMjhmNDU3NGJjNmVhZTdhYWIxOWZkNWUzYjc0M2NlMDFkNDRmMjM1Mzc2ZTU5MmNkN2I2YmU).
+As usual in the downtime between meets you can have a bit of a gas on the [Code Cumbria Slack](https://codecumbria.slack.com/). Not yet a member? Grab yourself an invite [here](https://join.slack.com/t/codecumbria/shared_invite/enQtNjM4MTQ3MzI1OTc1LWY1ODc2MGY3ZjQwOTY0OTViM2Y5NjE4MWIyMmVhNTI3MjQzYWYxZjBmNGQ5ZTQ2NTdjODViM2M5NGI4OWJmNzA).
 
 Look forward to seeing you,
 

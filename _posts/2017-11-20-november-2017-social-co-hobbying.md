@@ -25,4 +25,4 @@ As usual, our event is being hosted by [Freerange Industries](http://freerange.
 
 Tea, coffee, sweets and WiFi will be available.
 
-Until then you should [join us on Slack](https://join.slack.com/t/codecumbria/shared_invite/enQtNjM4MTQ3MzI1OTc1LTNmYTkyZGY4ODEyMjhmNDU3NGJjNmVhZTdhYWIxOWZkNWUzYjc0M2NlMDFkNDRmMjM1Mzc2ZTU5MmNkN2I2YmU) to keep the conversation going.
+Until then you should [join us on Slack](https://join.slack.com/t/codecumbria/shared_invite/enQtNjM4MTQ3MzI1OTc1LWY1ODc2MGY3ZjQwOTY0OTViM2Y5NjE4MWIyMmVhNTI3MjQzYWYxZjBmNGQ5ZTQ2NTdjODViM2M5NGI4OWJmNzA) to keep the conversation going.
