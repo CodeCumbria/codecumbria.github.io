@@ -25,7 +25,7 @@ No need for tickets this time. Doors will be open from 17:30.
 
 ### Details
 
-  * What: Lambda, Docker, and more...
+  * What: Project Showcase
   * When: Wednesday 25th September 2019, 18:00 to 20:00
   * Time: 18:00 to 20:00, doors open 17:30
   * Location: [The Guild, 5 Abbey Street, Carlisle, CA3 8TX](https://goo.gl/maps/ei6FKYw6yjx)
